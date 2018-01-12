@@ -19,7 +19,7 @@ namespace poomine
         public Form1()
         {
             InitializeComponent();
-            MessageBox.Show("Enne mängimise alustamist vajuta START nuppu, et mäng õigesti töötaks!", "START", MessageBoxButtons.OK);
+            var result = MessageBox.Show("Enne mängimise alustamist vajuta 'START' nuppu, et mäng õigesti töötaks!", "START", MessageBoxButtons.OK);
         }
         
 

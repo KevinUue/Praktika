@@ -60,7 +60,7 @@
             // lbl_Length
             // 
             this.lbl_Length.AutoSize = true;
-            this.lbl_Length.Location = new System.Drawing.Point(3, 249);
+            this.lbl_Length.Location = new System.Drawing.Point(6, 272);
             this.lbl_Length.Name = "lbl_Length";
             this.lbl_Length.Size = new System.Drawing.Size(78, 15);
             this.lbl_Length.TabIndex = 8;
@@ -69,7 +69,7 @@
             // lbl_Guesses
             // 
             this.lbl_Guesses.AutoSize = true;
-            this.lbl_Guesses.Location = new System.Drawing.Point(150, 249);
+            this.lbl_Guesses.Location = new System.Drawing.Point(241, 340);
             this.lbl_Guesses.Name = "lbl_Guesses";
             this.lbl_Guesses.Size = new System.Drawing.Size(87, 15);
             this.lbl_Guesses.TabIndex = 9;
@@ -100,7 +100,7 @@
             // lbl_Missed
             // 
             this.lbl_Missed.AutoSize = true;
-            this.lbl_Missed.Location = new System.Drawing.Point(3, 281);
+            this.lbl_Missed.Location = new System.Drawing.Point(150, 305);
             this.lbl_Missed.Name = "lbl_Missed";
             this.lbl_Missed.Size = new System.Drawing.Size(125, 15);
             this.lbl_Missed.TabIndex = 9;
@@ -168,6 +168,7 @@
             this.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Poomine";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
