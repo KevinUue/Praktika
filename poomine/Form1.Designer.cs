@@ -35,10 +35,10 @@
             this.lbl_Length = new System.Windows.Forms.Label();
             this.lbl_Guesses = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.lbl_Missed = new System.Windows.Forms.Label();
             this.txt_Word = new System.Windows.Forms.TextBox();
-            this.txt_Letter = new System.Windows.Forms.TextBox();
+            this.lbl_Missed = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.txt_Letter = new System.Windows.Forms.TextBox();
             this.btn_Letter = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -52,9 +52,9 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(423, 12);
+            this.panel1.Location = new System.Drawing.Point(403, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(282, 306);
+            this.panel1.Size = new System.Drawing.Size(202, 306);
             this.panel1.TabIndex = 7;
             // 
             // lbl_Length
@@ -90,6 +90,13 @@
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             // 
+            // txt_Word
+            // 
+            this.txt_Word.Location = new System.Drawing.Point(99, 337);
+            this.txt_Word.Name = "txt_Word";
+            this.txt_Word.Size = new System.Drawing.Size(136, 22);
+            this.txt_Word.TabIndex = 13;
+            // 
             // lbl_Missed
             // 
             this.lbl_Missed.AutoSize = true;
@@ -100,20 +107,6 @@
             this.lbl_Missed.Text = "Valesti arvatud tähed: ";
             this.lbl_Missed.Click += new System.EventHandler(this.lbl_Missed_Click);
             // 
-            // txt_Word
-            // 
-            this.txt_Word.Location = new System.Drawing.Point(99, 337);
-            this.txt_Word.Name = "txt_Word";
-            this.txt_Word.Size = new System.Drawing.Size(136, 22);
-            this.txt_Word.TabIndex = 13;
-            // 
-            // txt_Letter
-            // 
-            this.txt_Letter.Location = new System.Drawing.Point(101, 304);
-            this.txt_Letter.Name = "txt_Letter";
-            this.txt_Letter.Size = new System.Drawing.Size(32, 22);
-            this.txt_Letter.TabIndex = 12;
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(6, 332);
@@ -123,6 +116,13 @@
             this.button2.Text = "Arva sõna";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // txt_Letter
+            // 
+            this.txt_Letter.Location = new System.Drawing.Point(101, 304);
+            this.txt_Letter.Name = "txt_Letter";
+            this.txt_Letter.Size = new System.Drawing.Size(32, 22);
+            this.txt_Letter.TabIndex = 12;
             // 
             // btn_Letter
             // 
@@ -137,7 +137,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(515, 324);
+            this.button1.Location = new System.Drawing.Point(403, 322);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(89, 57);
             this.button1.TabIndex = 0;
@@ -148,7 +148,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Lime;
-            this.button3.Location = new System.Drawing.Point(610, 324);
+            this.button3.Location = new System.Drawing.Point(510, 322);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 57);
             this.button3.TabIndex = 12;
@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(719, 391);
+            this.ClientSize = new System.Drawing.Size(616, 391);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);

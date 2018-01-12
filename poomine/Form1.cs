@@ -182,7 +182,11 @@ namespace poomine
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Environment.Exit(1);
+            var result = MessageBox.Show("Oled kindel, et tahad lahkuda?", "", MessageBoxButtons.YesNo);
+            if(result == DialogResult.Yes)
+            {
+                Environment.Exit(1);
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
